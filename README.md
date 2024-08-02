@@ -51,7 +51,11 @@ If you clone this git repo, you have to delete ```.env``` and ```settings.yaml``
 
 ### Step 3 :
 
-Change the value of ```GRAPHRAG_API_KEY``` in ```.env``` to your own OpenAI API key or Azure API key.
+Change the value of ```GRAPHRAG_API_KEY``` in ```.env``` to your own OpenAI API key or Azure OpenAI key.
+
+If you use Azure OpenAI, it is suggested to follow the steps in the site below:
+
+https://www.cnblogs.com/gaocong/p/18299221
 
 ### Step 4 :
 

@@ -1,6 +1,7 @@
 input
 output
 prompts
+cache
 
 .env.me
-settings.yaml.me
+settings.me.yaml
