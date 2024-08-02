@@ -3,15 +3,15 @@ encoding_model: cl100k_base
 skip_workflows: []
 llm:
   api_key: ${GRAPHRAG_API_KEY}
-  type: azure_openai_chat # openai_chat or azure_openai_chat
+  type: openai_chat # or azure_openai_chat
   model: gpt-4-turbo-preview
   model_supports_json: true # recommended if this is available for your model.
   # max_tokens: 4000
   # request_timeout: 180.0
-  api_base: https://<instance>.openai.azure.com
-  api_version: 2024-02-15-preview
+  # api_base: https://<instance>.openai.azure.com
+  # api_version: 2024-02-15-preview
   # organization: <organization_id>
-  deployment_name: <azure_model_deployment_name>
+  # deployment_name: <azure_model_deployment_name>
   # tokens_per_minute: 150_000 # set a leaky bucket throttle
   # requests_per_minute: 10_000 # set a leaky bucket throttle
   # max_retries: 10
@@ -52,7 +52,7 @@ embeddings:
 
 
 chunks:
-  size: 600
+  size: 1200
   overlap: 100
   group_by_columns: [id] # by default, we don't allow chunks to cross documents
     

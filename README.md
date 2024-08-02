@@ -45,9 +45,9 @@ Run the command below:
 
 ```python -m graphrag.index --init```
 
-This action will build up two files ```.env``` and ```settings.yaml```
+This action will build up two files ```.env``` and ```settings.yaml``` and one folder ```prompts```.
 
-If you clone this git repo, you can skip this step.
+If you clone this git repo, you have to delete ```.env``` and ```settings.yaml``` before run the command.
 
 ### Step 3 :
 
