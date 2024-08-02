@@ -18,7 +18,9 @@ You can download VS tools from the site below:
 
 https://visualstudio.microsoft.com/visual-cpp-build-tools/
 
-The VS tools need about 9GB of storage in your computer.
+Choose single tool -- MSVC v143 - VS 2022 C++ x64/x86 (newest)
+
+The VS tools need about 2.8 GB of storage in your computer.
 
 ### Python package
 
