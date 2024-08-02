@@ -4,13 +4,13 @@
 
 ### OS
 
-Currently, this git repo has just tried under Windows OS.
+Currently, this git repo has tried under both Windows and Ubuntu.
 
 ### Python version
 
 Python 3.10 - 3.12
 
-### Wheel requirement
+### Wheel requirement (Ubuntu users skip this step)
 
 C++ compilor and Visual Studio tools.
 
