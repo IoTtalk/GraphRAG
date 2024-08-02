@@ -2,6 +2,10 @@
 
 ## Env
 
+### OS
+
+Currently, this git repo has just tried under Windows OS.
+
 ### Python version
 
 Python 3.10 - 3.12
@@ -9,6 +13,12 @@ Python 3.10 - 3.12
 ### Wheel requirement
 
 C++ compilor and Visual Studio tools.
+
+You can download VS tools from the site below:
+
+https://visualstudio.microsoft.com/visual-cpp-build-tools/
+
+The VS tools need about 9GB of storage in your computer.
 
 ### Python package
 
