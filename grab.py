@@ -1,9 +1,11 @@
 import requests
 import os
 
-file = "input/book.txt"
+dir = "ragtest/input"
 
-os.makedirs("input")
+os.makedirs(dir)
+
+file = dir + "/book.txt"
 
 if not os.path.exists(file) :
     url = "https://www.gutenberg.org/cache/epub/24022/pg24022.txt"
