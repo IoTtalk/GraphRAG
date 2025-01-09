@@ -43,7 +43,7 @@ This action will build a folder ```input``` and stored the text file into ```boo
 
 Run the command below:
 
-```python -m graphrag.index --init```
+```graphrag init --root ./ragtest```
 
 This action will build up two files ```.env``` and ```settings.yaml``` and one folder ```prompts```.
 
