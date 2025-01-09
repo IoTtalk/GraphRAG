@@ -2,6 +2,7 @@ input
 output
 prompts
 cache
+env*
 
 .env.me
 settings.me.yaml
