@@ -69,4 +69,4 @@ By now, our Graph RAG has been set up successfully and is ready to be used.
 
 ## Source Site
 
-https://microsoft.github.io/graphrag/posts/get_started/
+[GraphRAG Getting Started](https://microsoft.github.io/graphrag/get_started/)
